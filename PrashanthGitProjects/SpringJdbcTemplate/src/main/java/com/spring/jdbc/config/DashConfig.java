@@ -16,7 +16,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 @PropertySources({
     @PropertySource("classpath:resources/dashboardQueries.properties"),
     @PropertySource("classpath:resources/database.properties"),
-    @PropertySource("classpath:resources/filepath.properties")
+    @PropertySource("classpath:resources/log4j.properties")
 })
 public class DashConfig {
 
